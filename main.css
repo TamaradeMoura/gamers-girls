@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(223, 46, 193);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f0d8ed;
+    color: rgb(223, 46, 193) ;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-decor .nav-link.active:hover {
+    color:#f0d8ed;
+}
+
+.navbar-brand {
+    font-family: 'Lily Script One', cursive;
+    font-size: 200%;
+}
+
+.navbar-toggler {
+    background-color: rgb(223, 46, 193) ;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-loja,
+#decor {
+    background-color: #f0d8ed ;
+}
+
+.text-colored {
+    color:  rgb(223, 46, 193);
+}
+
+.brand-title {
+    font-family: 'Lily Script One', cursive;
+}
+
+.nav-decor .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(223, 46, 193) ;
+    color: #f0d8ed;
+}
+
+.nav-decor .nav-link:hover {
+    color:rgb(223, 46, 193);
+}
+
+.text-blue {
+    color: rgb(42, 176, 194);
+}
+
+.text-green {
+    color: rgb(5, 122, 83);
+}
+
+.imagem {
+    width: 100%;
+    height: 71%;
+}
+
+.text-grey {
+    color: rgb(55, 61, 59);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 240px;
+    }
+}
